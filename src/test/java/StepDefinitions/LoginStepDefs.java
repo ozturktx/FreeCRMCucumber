@@ -13,10 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 public class LoginStepDefs {
 
 
-    @Given("user is on the homepage")
-    public void user_is_on_the_homepage() {
-      //  Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-    }
+
    protected Login login=new Login();
     @When("user logs in with valid credentials")
     public void user_logs_in_with_valid_credentials() {
